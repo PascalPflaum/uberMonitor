@@ -1,0 +1,21 @@
+{
+  "name": "uber.monitoring",
+  "version": "0.1.0",
+  "description": "flexible data aggregation and sending in node.js",
+  "author": "Pascal Pflaum <mail@pascalpflaum.de>",
+  "main": "./src/monitor.js",
+  "dependencies": {
+    "uber.objects": "0.0.5",
+    "zabbix-sender": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.10",
+    "proxyquireify": "^3.2.0",
+    "sinon": "^1.17.4"
+  }
+}

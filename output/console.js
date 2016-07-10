@@ -1,0 +1,1 @@
+module.exports = () => (data)=> console.dir(data);
